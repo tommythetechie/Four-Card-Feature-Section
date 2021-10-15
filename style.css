@@ -1,3 +1,62 @@
 @charset "utf-8";
 /* CSS Document */
+html {
+  box-sizing: border-box;
+  
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+  	color: hsl(238, 29%, 16%);
+	background-color: #f8f8ff;
+}
+p {
+	line-height: 26px;
+}
+.wrapper {
+	width: 375px;
+	margin: 0 auto;
+	padding: 0px 12px 0px 12px;
+	margin-top: 70px;margin-bottom: 50px;
+}
+header {
+	
+}
+header h1 {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 34px;
+}
+header h1 span {
+	font-weight: 700;
+}
 
+main {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 200px 200px 200px;
+	grid-row-gap: 14px;
+}
+.card {
+	background-color: #fff;
+	border: 1px solid gray;
+	padding: 16px;
+	border-radius: 8px;
+}
+.card p {
+	color: hsl(240, 6%, 50%);
+}
+.green {
+	border-top: 3px solid green;
+}
+.red {
+	
+}
+.orange {
+	
+}
+.blue {
+	
+}
