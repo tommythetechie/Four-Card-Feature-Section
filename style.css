@@ -19,10 +19,11 @@ p {
 	width: 375px;
 	margin: 0 auto;
 	padding: 0px 12px 0px 12px;
-	margin-top: 70px;margin-bottom: 50px;
+	margin-top: 70px;
+	margin-bottom: 50px;
 }
 header {
-	
+	margin-bottom: 60px;
 }
 header h1 {
 	font-weight: 400;
@@ -41,22 +42,29 @@ main {
 }
 .card {
 	background-color: #fff;
-	border: 1px solid gray;
 	padding: 16px;
 	border-radius: 8px;
+	filter: drop-shadow(0 0 0.75rem #d3d3d3);
+	
+	
 }
 .card p {
 	color: hsl(240, 6%, 50%);
 }
+.card img {
+	width: 30px;
+	
+	
+}
 .green {
-	border-top: 3px solid green;
+	border-top: 3px solid #00E0B3;
 }
 .red {
-	
+	border-top: 3px solid #971C00;
 }
 .orange {
-	
+	border-top: 3px solid #DF7E04;
 }
 .blue {
-	
+	border-top: 3px solid #0069E7;
 }
