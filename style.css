@@ -68,3 +68,16 @@ main {
 .blue {
 	border-top: 3px solid #0069E7;
 }
+
+@media screen and (min-width: 1440px) {
+    
+	.wrapper {
+		min-width: 860px;
+		
+		
+	}
+	.card {
+		width: 300px;
+	}
+    
+  }
