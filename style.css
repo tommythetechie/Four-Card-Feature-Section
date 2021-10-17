@@ -76,8 +76,30 @@ main {
 		
 		
 	}
+	.heading {
+		width: 550px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	main {
+		justify-content: center;
+		position: relative;
+		top: -180px;
+		grid-row-gap: 34px;
+	}
 	.card {
-		width: 300px;
+		width: 300px; 
+		margin: 0 auto;
+	}
+	.green {
+		position: relative;
+		left: -315px;
+		top: 360px;
+	}
+	.blue {
+		position: relative;
+		right: -315px;
+		bottom: 330px;
 	}
     
   }
